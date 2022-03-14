@@ -17,7 +17,7 @@ use App\Http\Controllers\admin\HelperController;
 */
 
 Route::get('/', function () {
-    return view('admin.layouts.master');
+    return view('website.home');
 });
 
 Auth::routes();
